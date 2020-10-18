@@ -1,4 +1,3 @@
-  
 <template>
     <div id="movie-filter">
         <h2>Filter results</h2>
@@ -16,6 +15,7 @@
     import genres from '../util/genres';
     import times from '../util/times';
     import CheckFilter from './CheckFilter.vue';
+    
     export default {
         data() {
             return {
